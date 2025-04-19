@@ -1,6 +1,8 @@
 import pytest
 from app import app as flask_app, tasks  # Import the tasks dictionary
 
+#Dummy comment to trigger the CI/CD pipeline
+
 @pytest.fixture
 def app():
     yield flask_app
